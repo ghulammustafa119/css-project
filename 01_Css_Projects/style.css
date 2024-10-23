@@ -1,0 +1,71 @@
+body{
+    background-color: #0D1A2D;
+    font-family: cursive;
+}
+.card{
+    background-color: #15273F;
+    max-width: 350px;
+    height: 404px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    border-radius: 17px;
+    padding: 1rem;
+    box-shadow:10px 10px 11px 2px #151e3f9e;
+    padding-bottom: 16rem;
+    font-size: large;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    color: #D7E2EF;
+}
+p{
+    color: #8BACD9;
+}
+.hr{
+    border:1px solid #8BACD9;
+}
+.info{
+    color: #00FFF8;
+    display: inline-block;
+}
+svg{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.time{
+    color: #8BACD9;
+    display: inline-block;
+    position: absolute;
+    margin-left: 9.5rem;  
+}
+.logo{
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 4px;
+}
+.Nbhutto{
+   max-width: 35px;
+   position: fixed;
+}
+.Nbhutto:hover{
+    transform: translate(-50%,-50%) rotate(360deg) scale(6);
+}
+.Nbhutto>img{
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+.gmb{
+    padding-left: 42px;
+    padding-top: 25px;
+    color: #8BACD9;
+}
+.gmb>a{
+    color: #d7e5ef;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-top: 1px;
+}
